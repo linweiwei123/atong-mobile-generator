@@ -1,0 +1,78 @@
+{
+  "code": "0",
+  "data": [
+    {
+      "id": 1,
+      "type": "热销",
+      "list": [
+        {
+        "url":"https://img.meituan.net/100.100.90/xianfuwm/7d8678b48687b91e478be0f0c1f4c8e1361240.png",
+        "name": "香辣鸡腿堡",
+        "desc": "整块五谷鸡腿肉，浓郁汉堡酱，香脆线",
+        "price": 15
+       },
+        {
+          "url":"https://img.meituan.net/100.100.90/xianfuwm/7d8678b48687b91e478be0f0c1f4c8e1361240.png",
+          "name": "香辣鸡腿堡",
+          "desc": "整块五谷鸡腿肉，浓郁汉堡酱，香脆线",
+          "price": 15
+        },
+        {
+          "url":"https://img.meituan.net/100.100.90/xianfuwm/7d8678b48687b91e478be0f0c1f4c8e1361240.png",
+          "name": "香辣鸡腿堡",
+          "desc": "整块五谷鸡腿肉，浓郁汉堡酱，香脆线",
+          "price": 15
+        },
+        {
+          "url":"https://img.meituan.net/100.100.90/xianfuwm/7d8678b48687b91e478be0f0c1f4c8e1361240.png",
+          "name": "香辣鸡腿堡",
+          "desc": "整块五谷鸡腿肉，浓郁汉堡酱，香脆线",
+          "price": 15
+        },
+        {
+          "url":"https://img.meituan.net/100.100.90/xianfuwm/7d8678b48687b91e478be0f0c1f4c8e1361240.png",
+          "name": "香辣鸡腿堡",
+          "desc": "整块五谷鸡腿肉，浓郁汉堡酱，香脆线",
+          "price": 15
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "折扣",
+      "list": [
+        {
+          "url":"https://img.meituan.net/100.100.90/xianfuwm/7d8678b48687b91e478be0f0c1f4c8e1361240.png",
+          "name": "麦辣鸡翅",
+          "desc": "整块五谷鸡腿肉，浓郁汉堡酱，香脆线",
+          "price": 15
+        },
+        {
+          "url":"https://img.meituan.net/100.100.90/xianfuwm/7d8678b48687b91e478be0f0c1f4c8e1361240.png",
+          "name": "麦辣鸡翅",
+          "desc": "整块五谷鸡腿肉，浓郁汉堡酱，香脆线",
+          "price": 15
+        },
+        {
+          "url":"https://img.meituan.net/100.100.90/xianfuwm/7d8678b48687b91e478be0f0c1f4c8e1361240.png",
+          "name": "麦辣鸡翅",
+          "desc": "整块五谷鸡腿肉，浓郁汉堡酱，香脆线",
+          "price": 15
+        },
+        {
+          "url":"https://img.meituan.net/100.100.90/xianfuwm/7d8678b48687b91e478be0f0c1f4c8e1361240.png",
+          "name": "麦辣鸡翅",
+          "desc": "整块五谷鸡腿肉，浓郁汉堡酱，香脆线",
+          "price": 15
+        },
+        {
+          "url":"https://img.meituan.net/100.100.90/xianfuwm/7d8678b48687b91e478be0f0c1f4c8e1361240.png",
+          "name": "麦辣鸡翅",
+          "desc": "整块五谷鸡腿肉，浓郁汉堡酱，香脆线",
+          "price": 15
+        }
+      ]
+    }
+  ],
+  "developMessage": "查询成功"
+}
