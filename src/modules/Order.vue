@@ -162,7 +162,7 @@
       },
       onChange(index) {
         this.showList = false;
-        this.chosenCoupon = index;
+        this.chosenCoupon = order;
       },
       onExchange(code) {
         this.coupons.push(coupon);

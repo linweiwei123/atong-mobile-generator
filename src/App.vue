@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <navbar></navbar>
-    {{keepAlives}}
     <keep-alive :include="keepAlives">
       <router-view/>
     </keep-alive>
