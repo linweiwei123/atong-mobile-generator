@@ -3,13 +3,13 @@
     <input type="text">
     <van-swipe :autoplay="3000">
       <van-swipe-item>
-        <img src="../assets/b1.jpg" alt="">
+        <img src="../assets/imgs/b1.jpg" alt="">
       </van-swipe-item>
       <van-swipe-item>
-        <img src="../assets/b1.jpg" alt="">
+        <img src="../assets/imgs/b1.jpg" alt="">
       </van-swipe-item>
       <van-swipe-item>
-        <img src="../assets/b1.jpg" alt="">
+        <img src="../assets/imgs/b1.jpg" alt="">
       </van-swipe-item>
     </van-swipe>
     <!-- 联系人卡片 -->

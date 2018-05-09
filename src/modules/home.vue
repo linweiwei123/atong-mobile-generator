@@ -1,5 +1,6 @@
 <template>
   <div class="hello">
+    <navbar></navbar>
     <h1>{{ msg }}</h1>
     <div class="box"></div>
     <div class="h1">字体</div>
@@ -18,7 +19,7 @@
 </template>
 
 <script>
-
+  import navbar from '../components/Navbar';
   import { mapState } from 'vuex';
   import { INCREMENT, ADD_KEEP_ALIVE, REMOVE_KEEP_ALIVE } from '../store/mutation-types';
   import { ASYNC_INCREMENT } from '../store/action-types';
@@ -26,6 +27,9 @@
 
   export default {
     name: 'home',
+    components: {
+      navbar
+    },
     data () {
       return {
         msg: 'Welcome to Home',

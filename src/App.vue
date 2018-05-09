@@ -1,6 +1,5 @@
 <template>
-  <div id="app">
-    <navbar></navbar>
+  <div class="container" id="app">
     <keep-alive :include="keepAlives">
       <router-view/>
     </keep-alive>
@@ -9,14 +8,10 @@
 
 <script>
 
-import navbar from './components/Navbar';
 import store from './store/store';
 
 export default {
   name: 'App',
-  components: {
-    navbar
-  },
   computed: {
     keepAlives: function(){
       return store.getters.currentKeepAlives;
