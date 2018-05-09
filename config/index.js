@@ -43,7 +43,8 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, '../dist'),
     assetsSubDirectory: 'static',
-    assetsPublicPath: '/',
+    // 为了演示用已被我改成我的github项目地址，请注意改成最终地址
+    assetsPublicPath: 'https://linweiwei123.github.io/atong-mobile-generator/dist/',
 
     /**
      * Source Maps
