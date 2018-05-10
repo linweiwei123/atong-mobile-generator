@@ -19,7 +19,7 @@
         </div>
     </div>
     <div class="order-section">
-      <div class="menu-bar">
+      <div class="menu-bar better-scroll">
            <ul>
              <li v-for="item in menuList" class="menu">
                <div>
@@ -29,7 +29,7 @@
              </li>
            </ul>
       </div>
-      <div class="food-list">
+      <div class="food-list better-scroll" ref="wrapper">
         <food-group v-bind:key="foodgroup.id" v-for="foodgroup in foodList" v-bind:food-list="foodgroup"></food-group>
       </div>
     </div>
@@ -39,6 +39,7 @@
 <script>
     import foodgroup from '../components/foodgroup';
     import mhttp from '../common/mhttp';
+    import BScroll from 'better-scroll';
     export default {
         name: "shop",
         components: {
@@ -108,20 +109,24 @@
             foodList: []
           }
         },
-      mounted: function () {
-        this.$nextTick(function () {
+      created: function () {
+       // this.$nextTick(function () {
           mhttp.rest({
             url: 'static/food-list.json',
             method: 'get'
           })
             .then((response)=>{
               this.foodList = response.data;
+              this.$nextTick(function () {
+                new BScroll('.better-scroll');
+                new BScroll(this.$refs.wrapper, {})
+              });
               console.log(this.foodList);
             })
             .catch((error)=>{
               console.log(error);
             });
-        })
+       // })
       }
     }
 </script>

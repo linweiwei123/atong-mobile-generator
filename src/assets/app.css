@@ -27,6 +27,14 @@ html,body,.container,.page-wrapper{
   font-size: 24px;
 }
 
+.smooth-scroll{
+  -webkit-overflow-scrolling: touch;
+}
+
+.better-scroll{
+
+}
+
 ul{
   margin: 0;
   padding: 0;
